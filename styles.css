@@ -74,6 +74,11 @@ body {
   padding: 6px 20px;
 }
 
+.hero_cta:hover {
+  background-color: #f9faf8;
+  color: #1f2937;
+}
+
 .hero_section_image img {
   flex: 0.5;
   max-width: 400px;
@@ -117,10 +122,11 @@ body {
 
 .quote_section {
   background-color: #e5e7eb;
-  padding: 40px 260px;
+  padding: 100px 260px;
 }
 
 .quote_text {
+  margin: 0;
   font-family: roboto;
   font-size: 36px;
   font-weight: lighter;
@@ -128,7 +134,59 @@ body {
   color: #1f291f;
 }
 .quote_owner {
+  margin: 0;
   text-align: end;
   font-family: roboto;
   font-size: 24px;
+}
+
+.call_to_action_container {
+  padding: 70px 160px;
+}
+
+.cta_box {
+  padding: 60px 120px;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading_cta {
+  margin: 0;
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: roboto;
+}
+
+.cta_text {
+  margin: 0;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: roboto;
+}
+
+.cta_button {
+  padding: 6px 30px;
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  border-radius: 4px;
+  color: #f9faf8;
+  align-self: center;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: roboto;
+}
+.cta_button:hover {
+  background-color: #e5e7eb;
+  color: #3882f6;
 }
