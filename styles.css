@@ -190,3 +190,16 @@ body {
   background-color: #e5e7eb;
   color: #3882f6;
 }
+
+.footer {
+  background-color: #1f2937;
+  padding: 20px 200px;
+}
+
+.footer p {
+  text-align: center;
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 400;
+  color: #f9faf8;
+}
