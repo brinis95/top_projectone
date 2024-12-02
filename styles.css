@@ -114,3 +114,21 @@ body {
   width: 150px;
   text-align: center;
 }
+
+.quote_section {
+  background-color: #e5e7eb;
+  padding: 40px 260px;
+}
+
+.quote_text {
+  font-family: roboto;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f291f;
+}
+.quote_owner {
+  text-align: end;
+  font-family: roboto;
+  font-size: 24px;
+}
